@@ -208,3 +208,49 @@ body
      
     }
 }
+@media(max-width: 610px)
+{
+    .name,.intro
+    {
+        margin-top: 10px;
+    }
+    #head
+    {
+        padding-top: 30px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+    
+        
+        margin: 10px;
+    }
+    .btn{margin: 30px auto;
+     
+    }
+}
+@media(max-width: 518px)
+{
+    .name,.intro,h4
+    {
+        text-align: left;
+        margin-top: 10px;
+    }
+    #head
+    {
+        padding: 10px;
+        padding-top: 60px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+    
+        
+        margin: 10px;
+    }
+    .i    
+{
+ 
+    height: 200px;
+    border-radius: 25px;
+}
+    .btn{margin: 30px auto;
+     
+    }
+}
