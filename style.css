@@ -17,23 +17,45 @@
 
 #head
 {
-    background-image: url(2.jpg);
+    animation-name: ex;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 175px;
+}
+@keyframes ex {
+    0%
+    {
+        background-image: url(2.jpg);
+    }
+    25%
+    { background-image: url(https://images.unsplash.com/photo-1483982258113-b72862e6cff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    }
+    50%
+    {
+       background-image:url( https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80);
+    }
+    75%
+    {
+        background-image:url( https://images.unsplash.com/photo-1493584753368-64a38a466b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    }
+    100%
+    {
+        background-image:url(https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    }
+    
 }
 .name
 {color: rgb(255, 255, 255);
     
     font-family: 'Bebas Neue', cursive;
     font-size: 100px;
-    
+
 }
-.name:hover
-{
-    color: rgb(167, 165, 165);
-}
+
+
 .intro
 {margin-bottom: 15px;
     color: white;
