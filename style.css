@@ -19,7 +19,9 @@
 {
     animation-name: ex;
     animation-duration: 25s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
