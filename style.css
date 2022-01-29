@@ -22,11 +22,18 @@
     animation-play-state: running;
     animation-fill-mode: backwards;
     height: 800px;
+    background-image: url(2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 175px;
     
-        background-image: url(2.jpg);
+        
+        will-change: auto;
+will-change: scroll-position;
+will-change: contents;
+will-change: transform;        /* Example of <custom-ident> */
+will-change: opacity;          /* Example of <custom-ident> */
+will-change: left, top;  
 }
 @keyframes ex {
     0%
