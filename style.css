@@ -25,6 +25,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 175px;
+    
+        background-image: url(2.jpg);
 }
 @keyframes ex {
     0%
