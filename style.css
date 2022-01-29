@@ -14,11 +14,10 @@
     font-size: 30px;
     font-weight: bold;
 }
-
 #head
 {
     animation-name: ex;
-    animation-duration: 25s;
+    animation-duration: 15s;
     animation-iteration-count:infinite;
     animation-play-state: running;
     animation-fill-mode: backwards;
@@ -231,6 +230,13 @@ body
     .btn{margin: 30px auto;
      
     }
+    .name{
+        font-size: 70px;
+    }
+    .intro
+    {
+        font-size: 20px;
+    }
 }
 @media(max-width: 610px)
 {
@@ -249,6 +255,13 @@ body
     }
     .btn{margin: 30px auto;
      
+    }
+    .name{
+        font-size: 70px;
+    }
+    .intro
+    {
+        font-size: 20px;
     }
 }
 @media(max-width: 518px)
@@ -276,5 +289,12 @@ body
 }
     .btn{margin: 30px auto;
      
+    }
+    .name{
+        font-size: 70px;
+    }
+    .intro
+    {
+        font-size: 20px;
     }
 }
